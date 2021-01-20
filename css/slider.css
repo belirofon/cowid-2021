@@ -1,0 +1,23 @@
+.slider-container {
+  overflow: hidden;
+  background-color: #000000;
+  opacity: 0.7;
+}
+
+.slider-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000000;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main__descr {
+  /* height: 250px; */
+}
+
+.slider-buttons {
+  text-align: center;
+}
