@@ -1,5 +1,4 @@
 .page {
-  /* max-height: 800px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,7 +50,6 @@ h1 {
   /* Белый цвет текста */
   font-size: 2em;
   /* Размер надписи */
-  /* margin-top: -500px; */
 }
 
 .main-container {
@@ -118,29 +116,8 @@ h1 {
   position: fixed;
   z-index: 2;
   bottom: 0;
-  /* margin-bottom: 150px; */
 }
 
-/* @media (min-height:992px){
-.page  {
-  font-size: 1.8rem;
-}
-.main-container {
-  height: 800px;
-  background-size: 100% 800px;
-  background-repeat: no-repeat;
-}
-.footer {
-  height: 350px;
-  position: static;
-  
-} */
-
-/* .footer div {
-  position: fixed;
-  bottom: 10px;
-}
-} */
 
 @media (max-width: 992px) {
   .main-container {

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COWid-2021</title>
+</head>
+
+<body class="page">
+  <!-- <div class="layout"><picture><source srcset="/img/bg_main.webp" type="image/webp"><img src="/img/bg_main.jpg" alt=""></picture></div> -->
+  <header class="header">
+    <!-- side bar panel  -->
+    <input type="checkbox" id="side-checkbox" />
+    <div class="side-panel">
+      <label class="side-button-2" for="side-checkbox">+</label>
+      <div class="side-title">информация о игре:</div>
+      <ul>
+        <p>Данная игра была придумана как домашний проект для саморазвития в будущих версиях планируется:<br></p>
+        <li>Создание сценария нападения коров на независимом скрипте</li>
+        <li>Создание английской версии(перевод и допил русской)</li>
+        <li>Перенос игры на React</li>
+        <li>Создание на основе игры SPA приложения</li>
+        <li>Возможно, перенос игры на мобильные устройства</li>
+      </ul>
+    </div>
+    <!-- buttons for panel -->
+    <div class="side-button-1-wr">
+      <label class="side-button-1" for="side-checkbox">
+        <div class="side-b side-open">Больше информации</div>
+      </label>
+    </div>
+    <!-- audio player - standart -->
+    <audio class="audio" controls autoplay id="audio" src="./audio/music.mp3">
+    </audio>
+    <!-- button's lang  -->
+    <div class="button-wrapper">
+      <button class="change-lang"><a href="/indexEN.html">en</a>
+      </button>
+    </div>
+  </header>
+  <!-- descriptions  -->
+  <main class="main-container">
+    <h1 class="main__title">
+      <p>Добро пожаловать, Охотник</p>
+    </h1>
+    <!-- Slider main container -->
+    <div class="slider-container">
+      <!-- Additional required wrapper -->
+      <div class="slider-wrapper">
+        <!-- Slides -->
+        <div class="sliper-slide subscribe">В 2019 году, по миру начало расспространяться смертельно опасное
+          заболевание,
+          получившие
+          название - "КоронаВирус".<br>
+          В 2020 количество зараженных привысело 75 млн человек. Заражение вирусом пошло на спад, но никто не
+          подозревал,
+          что это только начало...</div>
+        <div class="sliper-slide subscribe">В 2021 болезнь получила неизвестную мутацию, которая в считанные дни
+          заразила
+          миллионны коров по всему миру,<br> вирус
+          получил название "COWid-21". За несколько недель появилась новая форма вируса, которая привела к появлению
+          новой
+          формы жизни на земле,<br> или не жизни - зомби.</div>
+        <div class="sliper-slide subscribe">Первые переносчики - коровы, начали изменяться только через несколько
+          недель, к тому
+          моменту,<br> литры зараженного молока и киллограмы говядины, были в сотнях мест по всему миру.<br>
+          Человечество было обреченно,
+          заразу не удалось выявить вовремя, и зомби эпидемия охватила мир.</div>
+        <div class="sliper-slide subscribe">Сейчас 2030 год, небольшие поселения еще сопротивляются атакам зомби,<br> но
+          так
+          продолжаться
+          дальше не может. <br>Твоя задача помочь людям перебраться в более спокойное место. <br>Дерзай, Охотник.</div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev btn-prev"></div>
+      <div class="swiper-button-next btn-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+    <div class="wrapper">
+      <button class="btn-new-game"><a href="/map.html">Начать игру</a></button>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <div class="contacts"><a href="https://vk.com/nico59"><picture><source srcset="img/vk.png" type="image/webp"><img src="img/vk.png" alt="В контакте"></picture></a></div>
+    <div>
+      <p>Copyright © Sannicov Nikolai <br>
+        2021 Все права защищены</p>
+    </div>
+  </footer>
+<scripts src="slider.js"></scripts>
+</body>
+
+</html>
