@@ -1,0 +1,8 @@
+{
+  "name": "cowid-2021",
+  "version": "1.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/belirofon/cowid-2021.git",
+  "author": "belirofon <nic.bel59@gmail.com>",
+  "license": "MIT"
+}
