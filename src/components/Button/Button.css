@@ -1,0 +1,27 @@
+.Button {
+  min-width: 40px;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(231, 38, 38, 0.53);
+  border: 1px solid darkgray;
+  border-radius: 50%;
+  cursor: pointer
+}
+.Button:focus {
+  background-color: rgba(231, 38, 38, 0.80);
+}
+
+.__link {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  text-transform: lowercase;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.Button.__link {
+  text-align: center;
+  cursor: pointer;
+}

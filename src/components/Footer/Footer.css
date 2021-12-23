@@ -1,0 +1,18 @@
+
+.Footer {
+  min-width: 100%;
+  min-height: 4rem;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+}
+.Footer * p, div {
+  color: white;
+}

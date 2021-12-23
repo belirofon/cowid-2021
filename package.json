@@ -1,32 +1,52 @@
 {
   "name": "cowid-2021",
-  "version": "1.0.1",
-  "main": "index.js",
-  "author": "belirofon <nic.bel59@gmail.com>",
-  "repository": "https://github.com/belirofon/cowid-2021.git",
-  "license": "MIT",
+  "version": "0.1.0",
+  "private": false,
+  "author": "belirofon",
+  "license": "ISC",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=production --node-env=production",
-    "build:dev": "webpack --mode=development",
-    "build:prod": "webpack --mode=production --node-env=production",
-    "watch": "webpack --watch",
-    "serve": "webpack serve"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version"
+    ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.0",
-    "css-loader": "^6.5.1",
-    "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.4.4",
-    "postcss": "^8.3.11",
-    "postcss-loader": "^6.2.0",
-    "prettier": "^2.4.1",
-    "sass": "^1.43.4",
-    "sass-loader": "^12.3.0",
-    "style-loader": "^3.3.1",
-    "ts-loader": "^9.2.6",
-    "webpack": "^5.63.0",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.4.0",
+    "antd": "^4.17.3",
+    "prettier": "2.5.1",
+    "react-audio-player": "^0.17.0",
+    "sass": "^1.44.0",
+    "swiper": "^7.3.4"
   }
 }

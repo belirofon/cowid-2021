@@ -1,0 +1,1 @@
+export { ReactAudio as default } from "./AudioPlayer";
